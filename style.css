@@ -2,4 +2,62 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: #fefff6;
+}
+
+:root{
+  --primary-color: #0a9c6f;
+  --grey-900: #0d1919;
+  --grey-800: #121b22;
+  --grey-700: #1f2c34;
+  --grey-600: #2d3438;
+  --grey-300: #fefff6;
+  --grey-200: #f1f2f6;
+  --green-700:#103529;
+  --green-400: #138b80;
+  --green-300: #2dca7a;
+  --green-100: #dcf8c6;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body{
+  background-color: #2dca7a;
+  padding: 40px;
+}
+
+#app{
+  display: grid;
+  background-color: var(--grey-900);
+  grid-template-columns: 320px 1fr;
+  height: 90vh;
+  overflow: hidden;
+
+}
+
+aside{
+  background-color: var(--grey-800);
+}
+
+.profile{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.actions button{
+  background: transparent;
+
+} 
+
+.actions button img{
+  height: 20px;
+  width: 20px;
+
 }
