@@ -32,6 +32,7 @@ body{
   grid-template-columns: 325px 1fr;
   height: 90vh;
   overflow: hidden;
+  border-radius: 10px;
 
 }
 
@@ -85,3 +86,58 @@ aside{
 
 /* search */
 
+.search form input{
+display: block;
+border: none;
+background-color: var(--grey-800);
+color: white;
+padding: 10px;
+width: 100%;
+}
+
+.search form input:hover,
+.search form input:focus{
+  background-color: var(--grey-700);
+}
+
+/* chat section */
+
+.chats-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.user-chat{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-chat img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-chat div{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+}
+
+.chats-section button{
+  background: transparent;
+  border: none;
+   background-color: var(--grey-800);
+   cursor: pointer;
+}
+
+.user-chat:hover, 
+.user-chat:focus{
+
+  background-color: var(--grey-600);
+ 
+}
