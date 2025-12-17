@@ -273,3 +273,17 @@ footer form textarea{
   overflow: hidden;
 }
 
+/* responsive */
+
+@media (max-width: 880px){
+  #app{
+    grid-template-columns: 1fr;
+  }
+
+
+  aside{
+    display: none;
+  }
+
+}
+
