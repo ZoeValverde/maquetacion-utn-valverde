@@ -166,11 +166,41 @@ width: 100%;
   border-radius: 50%;
 }
 
-/*  */
+/* messages*/
 
 .messages{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   flex: 1;
+  padding: 20px;
 }
+.message{
+background-color: #103529;
+padding: 15px;
+width: 30%;
+border-radius: 10px;
+font-size: 15px;
+}
+
+.you{
+  background-color: #2d3438;
+}
+.me{
+  align-self: flex-end;
+}
+
+.content{
+  font-size: 17px;
+}
+
+.message .time{
+margin-top: 5px;
+  text-align: end;
+}
+
+
+
 
 /* footer */
 
