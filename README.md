@@ -1,18 +1,19 @@
 # Maquetación UI Clon de WhatsApp-Entrega
-*Este proyecto se trata de una maquetación en la que tiene como referencia la interfaz de WhatsApp  con lo siguiente:
+*Este proyecto se trata de una maquetación en la que tiene como referencia la interfaz de WhatsApp  con lo siguiente:*
+
 - Apartado de perfil 
 - Panel de chats 
 - sección de conversación 
 
-Todo con sus respectivos botones (por ejemplo: enviar o adjuntar) y todo hecho con HTML y CSS.*
+*Todo con sus respectivos botones (por ejemplo: enviar o adjuntar) y todo hecho con HTML y CSS.*
 
 ## ¿Cómo visualizar el repositorio?
 
-Tendrias que ejecutar el **Index.html** del repositorio en cualquier navegador.
+*Tendrias que ejecutar el **Index.html** del repositorio en cualquier navegador.*
 
 ## Estructura 
 
-La estructura se basa en la siguiente lista:
+*La estructura se basa en la siguiente lista:*
 
 - Index.html
 - style.css
@@ -31,7 +32,7 @@ La estructura se basa en la siguiente lista:
 
 #### Estructura estilos en el style.css
 
-*Su orden se basa de lo general al detalle y arriba a abajo, siguiendo el siguiente:
+*Su orden se basa de lo general al detalle y arriba a abajo, siguiendo el siguiente:*
 
 1. Body 
 2. Aside 
@@ -40,12 +41,12 @@ La estructura se basa en la siguiente lista:
 5. Los mensajes 
 6. El Footer (Para enviar mensajes)
 
-Todo separado por su sección (Por ejemplo: / aside style /, / chat panel / o /  footer /).*
-Para dejar al final el responsive correspondiente.
+*Todo separado por su sección (Por ejemplo: / aside style /, / chat panel / o /  footer /).*
+Para dejar al final el responsive correspondiente.*
 
 
 ## Commits
-Los commits se hicieron el siguiente orden:
+*Los commits se hicieron el siguiente orden:*
     
 1. Base de los archivos index.html, style.css y la carpeta assets
 2. Aside 
@@ -54,4 +55,4 @@ Los commits se hicieron el siguiente orden:
 5. Los mensajes 
 6. El Footer (Para enviar mensajes)
     
-la diferencia con el orden de los estilos es que entre esos commits "generales" hay otros commits en las que son correciones de errores que se hicieron en la marcha, algunos son textuales, otros para tener una mejor estructura a la hora de estilar el mismo.
+*la diferencia con el orden de los estilos es que entre esos commits "generales" hay otros commits en las que son correciones de errores que se hicieron en la marcha, algunos son textuales, otros para tener una mejor estructura a la hora de estilar el mismo.*
