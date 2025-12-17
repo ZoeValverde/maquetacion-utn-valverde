@@ -137,7 +137,109 @@ width: 100%;
 
 .user-chat:hover, 
 .user-chat:focus{
-
   background-color: var(--grey-600);
- 
+  border-left: 3px solid var(--green-100);
 }
+
+/* chat panel */
+
+#chat-panel{
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  background-color: var(--grey-700);
+}
+
+.chat-header p{
+  font-size: 14px;
+}
+
+.chat-header img{
+    width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/*  */
+
+.messages{
+  flex: 1;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--grey-700);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+footer button{
+  background: transparent;
+  background-color: var(--grey-700);
+  border: none;
+}
+
+footer button img{
+  width: 22px;
+  height: 22px;
+}
+
+footer form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+
+}
+
+/* send button */
+
+.send{
+  display: flex;
+  justify-content: center;
+  background-color: var(--green-400);
+  padding: 15px;
+  border-radius: 15px;
+  transition: all .05s;
+}
+
+.send:hover{
+  background-color: var(--green-300);
+  transform: translateY(-4px);
+}
+
+/* attach button */
+
+.attach{
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color .1s;
+}
+
+.attach:hover{
+  background-color: var(--green-400) ;
+}
+
+/* textarea */
+
+footer form textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  resize: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: var(--grey-600);
+  color: var(--grey-300); 
+  overflow: hidden;
+}
+
