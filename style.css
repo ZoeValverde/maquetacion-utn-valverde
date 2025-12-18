@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: var(--primary-font);
   color: #fefff6;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 :root{
@@ -42,7 +42,6 @@ body{
 aside{
   background-color: var(--grey-800);
 }
-
 
 .profile{
   display: flex;
@@ -200,9 +199,6 @@ margin-top: 5px;
   text-align: end;
 }
 
-
-
-
 /* footer */
 
 footer{
@@ -229,7 +225,6 @@ footer form{
   align-items: center;
   gap: 10px;
   flex: 1;
-
 }
 
 /* send button */
@@ -276,8 +271,6 @@ footer form textarea{
 
 /* responsive */
 
-
-
 @media (max-width: 1050px){
 
   .message{
@@ -285,8 +278,6 @@ footer form textarea{
   }
 
 }
-
- 
  
 @media (max-width: 900px){
 
@@ -299,7 +290,6 @@ footer form textarea{
   }
 
 }
-
 
 @media (max-width: 500px){
 
