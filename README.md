@@ -42,7 +42,7 @@
 5. Los mensajes 
 6. El Footer (Para enviar mensajes)
 
-*Todo separado por secciones (Por ejemplo: / aside style /, / chat panel / o /  footer /).*
+*Todo separado por secciones; por ejemplo:  aside style, chat panel o footer.*
 Para dejar al final el responsive correspondiente.*
 
 
